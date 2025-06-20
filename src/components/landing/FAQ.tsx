@@ -40,7 +40,7 @@ const FAQ = () => {
   ];
 
   return (
-    <section id="" className="py-20 bg-gray-950 relative">
+    <section id="faq" className="py-20 bg-gray-950 relative">
       {/* Neural Background */}
       <div className="absolute inset-0 opacity-10">
         <svg className="w-full h-full" viewBox="0 0 1200 800">
