@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router";
-import { Landing, Auth } from "./pages";
+import { Landing, Auth, Privacy, Terms } from "./pages";
 
 function App() {
   return (
@@ -7,6 +7,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/auth/:mode" element={<Auth />} />
+        <Route path="/privacy" element={<Privacy />} />
+        <Route path="/terms" element={<Terms />} />
       </Routes>
     </div>
   );
