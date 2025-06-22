@@ -79,13 +79,13 @@ const Header = () => {
         {/* CTA */}
         <div className="hidden md:flex">
           <a
-            href="/register"
+            href="/auth/signup"
             className="ml-4 px-5 py-2 rounded-xl font-bold shadow-md hover:scale-105 transition-all bg-gradient-to-r from-[#1d81ce] to-[#f1560e] text-white"
           >
             Get Started
           </a>
           <a
-            href="/login"
+            href="/auth/login"
             className="ml-4 px-2 py-2 rounded-xl font-bold shadow-md hover:scale-105 transition-all text-white"
           >
             Sign In
@@ -119,7 +119,7 @@ const Header = () => {
               </a>
             ))}
             <a
-              href="/register"
+              href="/auth/signup"
               className="w-full px-5 py-2 rounded-xl bg-gradient-to-r from-[#35A7FF] to-[#824DFF] text-white font-bold shadow-md text-center mt-2"
               onClick={() => setMobileOpen(false)}
             >

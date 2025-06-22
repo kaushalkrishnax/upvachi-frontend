@@ -279,7 +279,7 @@ const Hero: React.FC = () => {
                 transition-transform duration-300 hover:scale-105
                 cursor-pointer
               "
-              onClick={() => window.location.href = "/register"}
+              onClick={() => window.location.href = "/auth/signup"}
             >
               Get Started
             </button>
